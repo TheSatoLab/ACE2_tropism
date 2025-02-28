@@ -1,20 +1,4 @@
-#NEXUS
-begin taxa;
-	dimensions ntax=53;
-	taxlabels
-	Anlong-103
-	BANAL-20-236
-	BANAL-20-52
-	BM48-31
-	BtKY72
-	BtRf-BetaCoV-HeB2013
-	'BtRs-BetaCoV/YN2020-Q325'
-	CX1
-	Civet007
-	GD2017F
-	GD2017H
-	GX-P1E_MpCoV-GX_
-	GX-P2V
+
 	GX-P4L
 	GX-P5E
 	GX-P5L
@@ -152,4 +136,3 @@ begin figtree;
 	set trees.transform=false;
 	set trees.transformType="cladogram";
 end;
-
