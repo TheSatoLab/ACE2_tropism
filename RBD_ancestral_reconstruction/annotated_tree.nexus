@@ -1,0 +1,157 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=53;
+	taxlabels
+	Anlong-103
+	BANAL-20-236
+	BANAL-20-52
+	BM48-31
+	BtKY72
+	BtRf-BetaCoV-HeB2013
+	'BtRs-BetaCoV/YN2020-Q325'
+	CX1
+	Civet007
+	GD2017F
+	GD2017H
+	GX-P1E_MpCoV-GX_
+	GX-P2V
+	GX-P4L
+	GX-P5E
+	GX-P5L
+	GX2019A
+	'Guangdong/1/2019'
+	HKU3-9
+	JX2021M
+	LN2020G
+	LYRa11
+	MP789_MpCoV-GD_
+	RShSTT200
+	Ra22QT77
+	Ra7909
+	RaTG13
+	RacCS203
+	Rc-kw8
+	Rc-mk2
+	Rc-o319
+	Rc-os20
+	RhGB01
+	Rm1
+	RmYN02
+	RmYN07
+	Rp22DB159
+	RpYN06
+	Rs4081
+	Rs7327
+	RsSHC014
+	RsYN04
+	RsYN09
+	RsYN2016A
+	SARS-CoV
+	SARS-CoV-2
+	WIV1
+	WIV16
+	YN2020A
+	YN2020H
+	bat-SL-CoVZC45
+	cDNA16
+	cDNA8
+;
+end;
+
+begin trees;
+	tree tree1 = [&R] (((Rc-os20[&mutations="I55-,K86Q,Y104F,N123D,Q124K,S127T,S142A,D155N,S157L,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,T169V,C171N,S177R,I181-,Y182F,V187T,Y189K,Q190L",!color=#000000]:0.118798,(Rc-o319[&mutations="I55-,P67S,K86R,K122R,S128T,P141S,S142E,N145R,S157Q,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,T174S,S177N,I181-,T184S,V187D,G188S,Y189H",!color=#000000]:0.097459,(Rc-kw8[&mutations="I55-,D111E,T113I,T123A,S127-,S128I,S129G,G130I,F132Y,Y135R,P141S,A152G,H153V,S157T,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,K172R,S173P,L175I,G179T,I181-,Y182T,A185V,G188D",!color=#000000]:0.138945,Rc-mk2[&mutations="T28K,I55-,D110G,S121T,A126S,S128Q,I138S,D155T,Y156H,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,Q170V,K176T,I181-",!color=#000000]:0.082155)[&label="NODE_0000004",mutations="N123T,T169G,F171Q",!color=#000000]:0.019987)[&label="NODE_0000003",mutations="Y132F,L135Y,M138I,C171F,Y176K,S185A,D216E,V218I",!color=#000000]:0.026729)[&label="NODE_0000002",mutations="T5Q,S7T,G21S,K61Q,I117L,K127S,G129S,L138M,F139W,K141P,K145N,S152A,N153H,I155D,A158V,L169T,N170Q,Y172K,Y173S,P174T,P183S,L213Q",!color=#000000]:0.216175,((GX-P1E_MpCoV-GX_[&mutations="I55-,N131-,Y132-,I181-",!color=#000000]:2.0E-6,(GX-P5E[&mutations="I55-,G130D,I181-",!color=#000000]:0.00501,(GX-P5L[&mutations="I55-,I181-",!color=#000000]:1.0E-6,(GX-P4L[&mutations="I55-,I181-",!color=#000000]:1.0E-6,GX-P2V[&mutations="I55-,I181-,F199X",!color=#000000]:1.0E-6)[&label="NODE_0000009",!color=#000000]:1.0E-6)[&label="NODE_0000008",!color=#000000]:2.0E-6)[&label="NODE_0000007",mutations="N133G",!color=#000000]:0.005015)[&label="NODE_0000006",mutations="D6I,T27S,T28K,K122V,N123K,K127L,S128T,K161T,Y176E,S177R,Y182H,S185T,G188N,Y192F,A204G,D216T,N220D",!color=#000000]:0.092448,(RaTG13[&mutations="I55-,V85I,R86T,N123H,L124I,S128E,Y132F,S142A,S177R,I181-,Y189H",!color=#000000]:0.076026,((Ra22QT77[&mutations="I55-,S126-,K127-,N131-,Y132-,G165-,E167A,I181-,N220D",!color=#000000]:0.010834,RShSTT200[&mutations="I55-,S126-,K127-,N131-,Y132-,T161K,G165-,I181-",!color=#000000]:0.004884)[&label="NODE_0000012",mutations="V2T,Q3S,E6T,S7Q,I8V,K38R,S53T,T113M,N122I,N123S,S128A,N133S,L135Y,N143V,E154Q,I155L,S160D,N164S,L169P,N170D,G179Y,H182Q,P183S,N216H,K219V",!color=#000000]:0.179554,((MP789_MpCoV-GD_[&mutations="I55-,I181-,N203K",!color=#000000]:0.004979,(cDNA16[&mutations="I55-,I181-",!color=#000000]:1.0E-6,(cDNA8[&mutations="I55-,I181-",!color=#000000]:0.0,'Guangdong/1/2019'[&mutations="I55-,I181-",!color=#000000]:0.0)[&label="NODE_0000016",!color=#000000]:1.0E-6)[&label="NODE_0000015",!color=#000000]:2.0E-6)[&label="NODE_0000014",mutations="K100R,K213Q",!color=#000000]:0.009899,((BANAL-20-52[&mutations="I55-,I181-",!color=#000000]:1.0E-6,BANAL-20-236[&mutations="E6D,I55-,Q176K,I181-",!color=#000000]:0.010073)[&label="NODE_0000018",!color=#000000]:2.0E-6,(SARS-CoV-2[&mutations="T54A,I55-,I181-,H182Q,N203H,I218V",!color=#000000]:0.020527,(Rp22DB159[&mutations="I55-,I181-",!color=#000000]:2.0E-6,CX1[&mutations="I55-,I181-,N185Y",!color=#000000]:0.005112)[&label="NODE_0000020",mutations="E6Q,F169L",!color=#000000]:0.010099)[&label="NODE_0000019",mutations="T28R,V85I",!color=#000000]:0.010293)[&label="NODE_0000017",mutations="V218I",!color=#000000]:0.005224)[&label="NODE_0000013",mutations="S128V,L169F,Y173F",!color=#000000]:0.003667)[&label="NODE_0000011",mutations="D6E,K122N,A126S,K161T,Q166V,T167E,Y176Q,Y182H,D185N",!color=#000000]:0.046323)[&label="NODE_0000010",mutations="K86R,V100K,Q124L,K143N,V167T,S185D,L213K,D216N",!color=#000000]:0.033198)[&label="NODE_0000005",mutations="V8I,N153T,Y154E,S157Q,G160S,P166Q",!color=#000000]:0.049517)[&label="NODE_0000001",mutations="P30A,V154Y",!color=#000000]:0.024379,((RsYN04[&mutations="I55-,K127-,G130-,N131-,Y132-,I181-",!color=#000000]:3.0E-6,Ra7909[&mutations="I55-,K127-,G130-,N131-,Y132-,I181-,S183G",!color=#000000]:0.005266)[&label="NODE_0000022",mutations="S3T,T5S,D6Q,V9A,F11Y,G21S,E22Q,T28R,N36T,K38E,V44I,K61R,T76S,F83M,K86R,G96S,N123A,Q124K,A126E,S128N,N133Q,L135F,K145L,E148Q,I151V,I155T,S157G,A158S,G160K,K161N,P162D,C163G,N164C,G165N,V167S,G168E,L169A,N170D,Y173W,Y176L,S177K,Y182T,P183S,T184S,S185V,G186S,V187Q,G188D,L213R,D216E,K219Y",!color=#000000]:0.458553,(((BtKY72[&mutations="T5S,E22Q,T27S,S28N,M38L,S48A,I55S,N131-,Y132-,P158S,S159A,V167S,G168Q,N170G,D173E,A176K,I181-,S185V,Q213K",!color=#000000]:0.091396,(BM48-31[&mutations="G21N,A26I,S41T,D42N,I55A,K61Q,L117I,V124L,S126-,K127-,G129S,N131-,Y132-,N133E,Y135F,L138R,E148G,Y156F,S165-,I166A,V167E,D173K,I181-,P183Q,T184S,Y189F",!color=#000000]:0.140439,RhGB01[&mutations="V9I,I14V,G21S,E22D,A26R,S28M,R39S,S41R,S48A,K61E,K86R,R91K,A96G,Q97K,T113V,T121S,N122R,S123H,S126N,S128Q,N130-,N131-,Y132-,N133-,E148Q,L151M,N153R,V154E,N157S,G161T,T162P,S164T,S165-,I166V,L169F,S177H,G179A,I181A,T182S,T184G,S185I,Y192F,E200Q,E216D",!color=#000000]:0.307101)[&label="NODE_0000026",mutations="S3T,N16Q,I151L,V187I",!color=#000000]:0.045653)[&label="NODE_0000025",mutations="D6T,T28S,K38M,N42D,T54S,N77S,S82Y,G96A,N123S,Q124V,A126S,G130N,Y134F,L135Y,S142G,L144I,F147Y,I155L,S157N,G159S,K161G,P162T,G165S,P166I,Y182T,L213Q,D216E",!color=#000000]:0.198057,((RsSHC014[&mutations="I55-,G165-,I181-",!color=#000000]:2.0E-6,(YN2020H[&mutations="I55-,G165-,I181-",!color=#000000]:1.0E-6,'BtRs-BetaCoV/YN2020-Q325'[&mutations="I55-,G165-,I181-",!color=#000000]:1.0E-6)[&label="NODE_0000029",mutations="I155V",!color=#000000]:0.005006)[&label="NODE_0000028",mutations="N123S,A126S,S128T,L138W,F139V,H141R,K145N,F147Y,I151L,V154D,K161Q,P162S,P166A,D173N,A176R,S177P,Y182F,S185A,Y189H",!color=#000000]:0.135727,((SARS-CoV[&mutations="R39K,I55-,S56F,G165-,P169L,I181-,S185T",!color=#000000]:0.014277,Civet007[&mutations="I55-,P158S,G165-,N176R,D177G,I181-",!color=#000000]:0.024353)[&label="NODE_0000031",mutations="A3V,K6G,E7D,T28K",!color=#000000]:0.026215,((Rs7327[&mutations="I55-,G165-,I181-",!color=#000000]:1.0E-6,RsYN2016A[&mutations="I55-,G165-,I181-",!color=#000000]:1.0E-6)[&label="NODE_0000033",mutations="Y182F",!color=#000000]:0.005108,(LYRa11[&mutations="A3S,I55-,T68I,T129S,Y132F,G165-,I181-,K219T",!color=#000000]:0.026176,(WIV1[&mutations="I55-,G165-,I181-",!color=#000000]:1.0E-6,WIV16[&mutations="I55-,G165-,I181-",!color=#000000]:1.0E-6)[&label="NODE_0000035",mutations="M113T,S128Q,T183I",!color=#000000]:0.016006)[&label="NODE_0000034",!color=#000000]:2.0E-6)[&label="NODE_0000032",mutations="Y138S,P169F,S185N",!color=#000000]:0.012272)[&label="NODE_0000030",mutations="L113M,N122R,K124I,S127T,S129T,L135K,L138Y,F139L,S142G,K145R,I155P,Y156F,G159D,S164T,V167P,G168A,D173W,A176N,S177D,V187I",!color=#000000]:0.138096)[&label="NODE_0000027",mutations="S3A,T5S,D6K,P67A,T113L,Q124K,K127S,G129S,L169P,P183T,V218I,K221Q",!color=#000000]:0.108141)[&label="NODE_0000024",mutations="T76S,E89D,I117L,K141H,N164S,Y173D",!color=#000000]:0.057264,(GD2017H[&mutations="I55-,A126-,K127-,G130-,N131-,Y132-,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,I181-",!color=#000000]:3.0E-6,((HKU3-9[&mutations="I55-,Q124H,A126-,K127-,G130-,N131-,Y132-,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,I181-,Q216E",!color=#000000]:0.012336,YN2020A[&mutations="I55-,A126-,K127-,G130-,N131-,Y132-,N133Y,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,I181-",!color=#000000]:0.006234)[&label="NODE_0000038",!color=#000000]:3.0E-6,(GD2017F[&mutations="T38I,I55-,A126-,K127-,G130-,N131-,Y132-,T142N,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,I181-,K219R",!color=#000000]:0.019543,(Rm1[&mutations="S3T,I55-,K123Q,A126-,K127-,G130-,N131-,Y132-,H139Y,T142E,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,I181-,N184S,V185I",!color=#000000]:0.04103,(Rs4081[&mutations="T6H,I55-,A126-,K127-,G130-,N131-,Y132-,H139S,S152T,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,I181-,V187I,Q216A",!color=#000000]:0.030661,(JX2021M[&mutations="T6N,K22R,D42E,I55-,I85V,K123N,Q124L,A126-,K127-,G130-,N131-,Y132-,T142A,P146L,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,I181-,Q216P,V218I",!color=#000000]:0.066019,(RmYN07[&mutations="T5S,V9I,K22R,I55-,V93I,D111E,K123N,A126-,K127-,G130-,N131-,Y132-,H139S,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,I181-,N184S,Q216S,V218I",!color=#000000]:0.068159,(RsYN09[&mutations="T5N,I55-,A126-,K127-,G130-,N131-,Y132-,Q133Y,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,E168D,G169-,I181-,P183Q",!color=#000000]:0.026598,(Anlong-103[&mutations="T6R,K22S,V23I,I55-,K107R,K123N,A126-,K127-,G130-,N131-,Y132-,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,I181-,N184Y,Q216E",!color=#000000]:0.048379,((RmYN02[&mutations="V2I,I55-,K123Q,A126-,K127-,G130-,N131-,Y132-,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,I181-",!color=#000000]:0.012664,RacCS203[&mutations="I55-,A126-,K127-,G130-,N131-,Y132-,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,I181-",!color=#000000]:1.0E-6)[&label="NODE_0000047",mutations="Q3L,T5S,V17F,S31N,E36Q,V44I,V93I,I117L,V128I,S141A,T142V,Q221R",!color=#000000]:0.081469,(GX2019A[&mutations="V17L,K22A,T38V,D42N,V49A,I55-,K123R,A126-,K127-,G130-,N131-,Y132-,T142S,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,V172I,I181-,Q221K",!color=#000000]:0.066219,((LN2020G[&mutations="V9A,I55-,T113I,A126-,K127-,G130-,N131-,Y132-,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,R173L,I181-,Q216P",!color=#000000]:0.039686,BtRf-BetaCoV-HeB2013[&mutations="Q3S,T5V,V6T,D7E,V17L,I55-,A126-,K127-,G130-,N131-,Y132-,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,I181-,N184Y,Q216S",!color=#000000]:0.030165)[&label="NODE_0000050",mutations="K61N,T142S,D154E,P183Q",!color=#000000]:0.030071,(RpYN06[&mutations="K22N,I55-,A126-,K127-,G130-,N131-,Y132-,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,I181-",!color=#000000]:0.00621,bat-SL-CoVZC45[&mutations="I55-,A126-,K127-,G130-,N131-,Y132-,I155-,Y156-,S157-,P158-,G159-,G160-,K161-,P162-,C163-,N164-,G165-,P166-,V167-,G169-,I181-",!color=#000000]:1.0E-6)[&label="NODE_0000051",mutations="V6Q,D7S,D21H,V44I,S133N",!color=#000000]:0.039412)[&label="NODE_0000049",mutations="E97Q,D188E",!color=#000000]:0.013491)[&label="NODE_0000048",mutations="T6V,E7D,L50F",!color=#000000]:0.011617)[&label="NODE_0000046",mutations="S3Q,R17V,S27T",!color=#000000]:0.019569)[&label="NODE_0000045",mutations="Q128V,Q133S,Y135F,K141S",!color=#000000]:0.024401)[&label="NODE_0000044",mutations="Y182N,E188D",!color=#000000]:0.018533)[&label="NODE_0000043",mutations="S87F,V187L",!color=#000000]:0.018668)[&label="NODE_0000042",mutations="N31S",!color=#000000]:0.011622)[&label="NODE_0000041",mutations="Q6T,Y173R",!color=#000000]:0.010503)[&label="NODE_0000040",mutations="T27S,T128Q,N133Q,D168E,N182Y,A188E",!color=#000000]:0.042915)[&label="NODE_0000039",mutations="I9V",!color=#000000]:0.005557)[&label="NODE_0000037",mutations="H6Q,L17R,I93V",!color=#000000]:0.018597)[&label="NODE_0000036",mutations="D6H,V9I,G21D,E22K,T28R,S31N,K38T,R39K,N42D,S48T,T68S,N71I,N77S,S82T,V84L,V85I,K86R,G87S,D88S,Q97E,N122A,N123K,S128T,L135Y,L138S,F139H,S142T,I151L,N153S,V154D,G168D,L169G,C171G,Y172V,P174T,A176S,S177T,G179D,Y182N,T184N,S185V,G186P,G188A,P191A,Y192T,D216Q,K221Q",!color=#000000]:0.562144)[&label="NODE_0000023",mutations="S7E,N36E,S121T,K122N,A158P,Y176A",!color=#000000]:0.046404)[&label="NODE_0000021",mutations="Q3S",!color=#000000]:0.024379)[&label="NODE_0000000",!color=#000000];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set colour.order.label="label:NODE_0000000,NODE_0000001,NODE_0000002,NODE_0000003,NODE_0000004,NODE_0000005,NODE_0000006,NODE_0000007,NODE_0000008,NODE_0000009,NODE_0000010,NODE_0000011,NODE_0000012,NODE_0000013,NODE_0000014,NODE_0000015,NODE_0000016,NODE_0000017,NODE_0000018,NODE_0000019,NODE_0000020,NODE_0000021,NODE_0000022,NODE_0000023,NODE_0000024,NODE_0000025,NODE_0000026,NODE_0000027,NODE_0000028,NODE_0000029,NODE_0000030,NODE_0000031,NODE_0000032,NODE_0000033,NODE_0000034,NODE_0000035,NODE_0000036,NODE_0000037,NODE_0000038,NODE_0000039,NODE_0000040,NODE_0000041,NODE_0000042,NODE_0000043,NODE_0000044,NODE_0000045,NODE_0000046,NODE_0000047,NODE_0000048,NODE_0000049,NODE_0000050,NODE_0000051";
+	set colour.scheme.label="label:HSBDiscrete{hue,1,0.5,1.0,0.5,0.6,0.4,0.8}";
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
